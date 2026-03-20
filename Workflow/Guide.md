@@ -31,18 +31,3 @@ Commonly Used Tools
 • Documentation Storage: Notion, Google Docs, SharePoint (https://support.microsoft.com/en-us/office/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3). 
 • Screen Capture/Automation: Tango, Snagit. [3, 9, 10, 11, 12]  
 
-AI can make mistakes, so double-check responses
-
-[1] https://slack.com/blog/productivity/workflow-documentation-what-it-is-how-to-create-it-and-why-it-matters
-[2] https://www.sweetprocess.com/workflow-documentation/
-[3] https://www.notion.com/blog/documenting-workflows
-[4] https://trainual.com/manual/how-to-document-workflow-processes
-[5] https://clickup.com/blog/workflow-documentation/
-[6] https://www.adobe.com/acrobat/business/resources/document-workflow-ultimate-management-guide.html
-[7] https://www.atlassian.com/blog/productivity/invest-time-in-workflow-documentation
-[8] https://www.digitaldocumentsdirect.com/blog/procedure-manuals/
-[9] https://www.tango.ai/blog/workflow-documentation
-[10] https://www.techsmith.com/blog/best-ways-to-document-workflows/
-[11] https://support.microsoft.com/en-us/office/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3
-[12] https://www.notion.com/blog/process-documentation-for-startups
-
