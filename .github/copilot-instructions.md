@@ -1,5 +1,18 @@
----
+## Technology Stack (from `Master Stack.txt`)
 
+| Layer | Technologies |
+|---|---|
+| **Frontend** | React, Next.js, Tailwind CSS, TanStack (Table, Query, Router), PrimeReact, Flowbite |
+| **Backend** | Python / FastAPI / Pydantic / SQLAlchemy; Node.js / TypeScript / Fastify |
+| **API patterns** | REST primary; GraphQL (Apollo / Strawberry) where useful |
+| **Database** | PostgreSQL (source of truth), Redis (cache/queue), Neo4j (optional graph) |
+| **Queue / Workers** | Celery, scheduled jobs |
+| **DevOps** | Docker, Docker Compose, GitHub Actions |
+| **Hosting** | Vercel (frontend), Railway (backend/DB), Hostinger |
+| **Dev environment** | VS Code, Codespaces, dev containers |
+| **External data** | DataGolf, weather APIs, sportsbook/odds APIs, PGA event sources |
+
+---
 
 
 ## Document & File Conventions
