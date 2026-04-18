@@ -1,0 +1,190 @@
+# 🧠 LAB REPO — Copilot Instructions
+
+## Purpose
+This repository is an experimental and execution environment for:
+- Prompts
+- Agents
+- MCP tools
+- AI workflows
+- Prototypes
+- Automation scripts
+
+This is NOT a production application repo.
+
+---
+
+## 🧱 Core Principles
+
+- Prefer clarity over cleverness
+- Keep outputs modular and reusable
+- All logic must be portable to other repos (core/, services/, data/)
+- Avoid tight coupling between experiments
+- Every artifact should be self-contained
+
+---
+
+## 📂 Folder Responsibilities
+
+### /prompts
+- Task-specific prompts
+- Must be reusable and parameterized
+- Avoid hardcoding project-specific data
+
+### /agents
+- Structured AI agents (Copilot, OpenAI, MCP)
+- Include:
+  - Role definition
+  - Capabilities
+  - Inputs / Outputs
+  - Execution flow
+
+### /mcp
+- Machine Control Protocol tools
+- Define:
+  - Tool name
+  - Input schema
+  - Output schema
+  - Execution logic
+
+### /experiments
+- Temporary or exploratory work
+- Can be unstable
+- Must include short README explaining purpose
+
+### /prototypes
+- Semi-stable implementations
+- Should be promotable to services/ or core/
+
+### /copilot
+- Copilot-specific agents, prompts, and behaviors
+
+---
+
+## 🧠 Coding Standards
+
+### General
+- Use clear, readable structure
+- Avoid unnecessary abstractions
+- Prefer functional patterns over complex class hierarchies
+
+### JavaScript / TypeScript
+- Use modern ES modules
+- Prefer async/await
+- Keep functions small and composable
+
+### Python
+- Use clear function-based structure
+- Avoid overengineering
+- Keep scripts runnable as standalone modules
+
+### Markdown
+- Use clean formatting
+- No excessive spacing
+- Use headers and bullet lists
+- Prefer structured templates
+
+---
+
+## 🤖 Agent Design Rules
+
+All agents must include:
+
+- Name
+- Purpose
+- Inputs
+- Outputs
+- Step-by-step execution logic
+- Example usage
+
+Agents should:
+- Be deterministic when possible
+- Avoid vague instructions
+- Be reusable across projects
+
+---
+
+## 🔌 MCP Tool Rules
+
+Each MCP tool must define:
+
+- Tool name
+- Description
+- Input schema (JSON)
+- Output schema (JSON)
+- Execution steps
+
+Keep tools:
+- Focused on one responsibility
+- Stateless where possible
+- Easy to integrate into pipelines
+
+---
+
+## 🧪 Experiment Rules
+
+- Experiments must be isolated
+- No shared hidden dependencies
+- Include a short README:
+  - What it does
+  - Why it exists
+  - Next step (keep, refactor, delete)
+
+---
+
+## 🔄 Promotion Path
+
+Artifacts move like this:
+
+lab/experiment → lab/prototype → services/ or core/
+
+Do NOT leave important logic stuck in experiments.
+
+---
+
+## ⚠️ Anti-Patterns (Avoid)
+
+- Mixing production code with experiments
+- Hardcoding credentials or environment data
+- Creating large monolithic scripts
+- Vague or unstructured prompts
+- Duplicate logic across folders
+
+---
+
+## 🚀 Output Expectations
+
+When generating code or content:
+
+- Be structured and production-aware
+- Include minimal but clear comments
+- Prefer reusable patterns
+- Assume code may be promoted to production
+
+---
+
+## 🧩 Integration Awareness
+
+Lab outputs should be compatible with:
+
+- FastAPI (backend)
+- React + TypeScript (frontend)
+- PostgreSQL (data layer)
+- GraphQL (API layer)
+
+---
+
+## 🧠 Default Behavior for Copilot
+
+When unsure:
+
+1. Choose simplicity
+2. Prefer modular output
+3. Add structure over verbosity
+4. Make outputs reusable
+5. Assume this will scale later
+
+---
+
+## 🏁 Goal
+
+Turn ideas into structured, testable, and promotable building blocks for the ecosystem.
