@@ -1,4 +1,4 @@
-# Copilot Repository Instructions — _Toolbox
+# Toolbox
 
 ## Repository Overview
 
