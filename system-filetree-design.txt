@@ -1,0 +1,11 @@
+
+
+
+~/.agents/skills/
+├── pdf-processing/
+│   ├── SKILL.md          ← discovered
+│   └── scripts/
+│       └── extract.py
+├── data-analysis/
+│   └── SKILL.md          ← discovered
+└── README.md             ← ignored (not a skill directory)
