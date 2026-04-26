@@ -1,0 +1,51 @@
+MASTER STACK
+============
+Full technology stack reference for this project.
+Update this file whenever a technology is adopted, upgraded, or removed.
+
+------------------------------------------------------------------------------
+SECTION 1 — REPOSITORY & TOOLING
+------------------------------------------------------------------------------
+
+Version Control:        Git
+Hosting:                GitHub (https://github.com/Nickolai-Brennan/Startup)
+Primary Language:       Markdown (.md)
+Supporting Format:      Plain text (.txt)
+AI Coding Assistant:    GitHub Copilot
+AI Agent Framework:     Custom (see Automations/)
+
+------------------------------------------------------------------------------
+SECTION 2 — AI & AUTOMATION
+------------------------------------------------------------------------------
+
+Agent Runtime:          GitHub Copilot Coding Agent / custom .agent.md specs
+Prompt Format:          Plain Markdown with {{double-brace}} placeholders
+Skill Format:           Plain Markdown (see Automations/Skills/)
+Orchestration Model:    Defined in Workflow/AI Execution Methods.md
+Context Injection:      Files from Automations/Information/
+
+------------------------------------------------------------------------------
+SECTION 3 — DOCUMENTATION
+------------------------------------------------------------------------------
+
+Doc Format:             Markdown with YAML front-matter
+KBD:                    Docs/KBD/
+PRD:                    Docs/PRD/
+Technical Specs:        Docs/Technical/
+Changelog Format:       Keep a Changelog (https://keepachangelog.com/en/1.1.0/)
+
+------------------------------------------------------------------------------
+SECTION 4 — PLANNED / FUTURE STACK
+------------------------------------------------------------------------------
+
+(Add planned technologies here as decisions are made)
+
+------------------------------------------------------------------------------
+SECTION 5 — REMOVED / DEPRECATED
+------------------------------------------------------------------------------
+
+(Record technologies that were evaluated and rejected, or that were removed)
+
+------------------------------------------------------------------------------
+Last updated: YYYY-MM-DD
+
