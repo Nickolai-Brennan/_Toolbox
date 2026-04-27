@@ -1,0 +1,36 @@
+name: Verify Stack
+
+on:
+  push:
+    paths: &env-paths
+      - 'config/env.example'
+      - 'config/stack.config.json'
+      - '.env*'
+      - 'scripts/verify-stack.sh'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'pnpm-lock.yaml'
+      - 'yarn.lock'
+      - 'requirements.txt'
+      - 'pyproject.toml'
+      - 'poetry.lock'
+      - 'Pipfile'
+      - 'Pipfile.lock'
+      - 'docker-compose.yml'
+      - 'docker-compose.*.yml'
+  pull_request:
+    paths: *env-paths
+
+permissions:
+  contents: read
+
+jobs:
+  verify-stack:
+    name: Verify stack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run stack verification
+        run: bash scripts/verify-stack.sh
